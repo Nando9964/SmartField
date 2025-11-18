@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-JWT-Extended
+psycopg2-binary        # Conector para PostgreSQL
+requests           # Si necesitas hacer solicitudes HTTP entre microservicios
+python-dotenv      # Para manejar variables de entorno desde .env
+pytest              # Framework de pruebas para testing
+pytest-flask        # Extensión de pytest para facilitar pruebas en Flask
+pytest-cov          # Cobertura de pruebas

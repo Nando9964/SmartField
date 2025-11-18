@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-JWT-Extended  # Para manejar JWT
+psycopg2-binary         # Conector para PostgreSQL
+python-dotenv     # Para cargar variables de entorno
+requests
