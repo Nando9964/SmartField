@@ -1,4 +1,4 @@
-
+version: '3.8'
 
 services:
   db:
@@ -54,5 +54,19 @@ services:
     ports:
       - "5004:5000"
 
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+    networks:
+      - smartfield_network
+
 volumes:
   pg_data:
+
+networks:
+  smartfield_network:
+    driver: bridge
