@@ -1,0 +1,35 @@
+site_name: SmartField Documentation
+site_url: https://smartfield.com
+site_description: Documentación para el proyecto de microservicios SmartField
+
+# Tema de la documentación (Material, en este caso)
+theme:
+  name: material
+
+# Estructura de navegación
+nav:
+  - Home: index.md
+  - Autenticación:
+      - API Documentation: microservicios/authentication/api_documentation.md
+  - Riego:
+      - API Documentation: microservicios/irrigation/api_documentation.md
+  - Monitoreo:
+      - API Documentation: microservicios/monitoring/api_documentation.md
+  - Sensores:
+      - API Documentation: microservicios/sensor/api_documentation.md
+  - Guías:
+      - Guía de Instalación: docs/installation_guide.md
+
+# Extensiones de Markdown
+markdown_extensions:
+  - admonition  # Para usar cajas de advertencia y notas
+  - codehilite  # Para resaltar código
+  - toc:         # Para crear una tabla de contenido
+      permalink: true
+
+# Opciones de configuración adicionales
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tu-repositorio
+  copyright: "© 2025 SmartField, Todos los derechos reservados"
